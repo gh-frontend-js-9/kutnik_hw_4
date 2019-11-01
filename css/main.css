@@ -1,0 +1,184 @@
+.header-wrapper {
+  max-width: 1170px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  margin: 0 auto;
+  height: 104px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-wrapper__navigation-a + .header-wrapper__navigation-a {
+  margin-left: 46px;
+}
+
+.header-wrapper__navigation-a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #635c73;
+  font-weight: 700;
+}
+
+.header-wrapper__logo_forkio_m {
+  margin-left: 1rem;
+}
+
+.header-wrapper__logo_style_a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 1, 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-wrapper__logo_forkio_io {
+  color: #8d81ac;
+}
+
+.header-wrapper__navigation-a-botton {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #8d81ac;
+  padding: 13px 37px;
+  border-radius: 2em;
+  margin-left: 35px;
+}
+
+@media (max-width: 480px) {
+  .header-wrapper__navigation-a {
+    display: none;
+  }
+}
+.header-wrapper__navigation-line_short {
+  height: 3px;
+  width: 20px;
+  background-color: #333333;
+  float: right;
+}
+
+.header-wrapper__navigation-line_short_long {
+  width: 26px;
+  height: 3px;
+  margin-top: 9px;
+  background-color: #333333;
+}
+
+.header-wrapper__navigation-line_short_longs {
+  width: 26px;
+  height: 3px;
+  background-color: #333333;
+  margin-top: 6px;
+}
+
+.header-wrapper__navigation-dropdowns {
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .header-wrapper__navigation-dropdowns {
+    display: block;
+    margin-right: 26px;
+  }
+}
+@media (max-width: 480px) {
+  .header-wrapper__logo_style_a {
+    margin-left: 23px;
+  }
+}
+.header-wrapper__navigation-dropdown_menu {
+  display: none;
+}
+
+.header-wrapper__navigation-dropdowns:hover .header-wrapper__navigation-dropdown_menu {
+  display: block;
+  position: absolute;
+  margin-top: 20px;
+}
+
+.header-wrapper__navigation-dropdown_menu-a {
+  text-decoration: none;
+}
+
+.section-laptop {
+  background-image: url(../img/bg_top.png);
+  max-width: 100%;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repead;
+}
+
+.section-laptop__content-m {
+  padding-top: 100px;
+}
+
+.main-wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.section-laptop__tite-h {
+  margin: 0;
+  font-size: 82px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.section-laptop__subtitle-h {
+  display: block;
+  margin-top: 33px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #8d81ac;
+  font-family: "Lato", sans-serif;
+}
+
+.section-laptop__small-text {
+  display: block;
+  font-size: 16px;
+  margin-top: 18px;
+  font-weight: 700;
+  color: #848e97;
+}
+
+.section-laptop__botton {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #8d81ac;
+  padding: 24px 68px;
+  border-radius: 2em;
+  font-weight: 700;
+}
+
+.revolutionary-editor {
+  display: flex;
+  flex-direction: column;
+}
+
+.revolutionary-editor__small-text {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #848e97;
+  font-weight: 700;
+}
+
+.revolutionary-editor__title-h {
+  margin-top: 70px;
+  font-size: 54px;
+  font-weight: bold;
+  color: #635c73;
+  margin-bottom: 0;
+}
+
+.revolutionary-editor__text {
+  margin-top: 40px;
+  font-size: 21px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: #5b5b5b;
+}
